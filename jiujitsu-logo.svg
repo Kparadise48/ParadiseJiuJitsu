@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+    <rect width="900" height="520" fill="#f7f7f7"/>
+    <rect x="80" y="90" width="740" height="340" rx="18" fill="#111111"/>
+    <rect x="115" y="125" width="670" height="270" rx="10" fill="#eeeeee"/>
+    <circle cx="450" cy="245" r="105" fill="#2aaee8"/>
+    <circle cx="450" cy="245" r="75" fill="#111111"/>
+    <text x="450" y="235" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="bold" fill="white">PJ</text>
+    <text x="450" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="white">JIU-JITSU</text>
+    <rect x="210" y="340" width="480" height="28" fill="#111111"/>
+    <rect x="590" y="340" width="58" height="28" fill="#2aaee8"/>
+    <text x="450" y="410" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#222222">BRAZILIAN JIU-JITSU • MUAY THAI</text>
+</svg>

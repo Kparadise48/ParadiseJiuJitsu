@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Paradise Jiu Jitsu and Muay Thai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Paradise Jiu Jitsu and Muay Thai</h1>
+        <h2>Brazilian Jiu-Jitsu and Muay Thai for All Skill Levels</h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="classes.html">Classes</a>
+            <a href="gear.html">Gear</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Member Sign Up</h2>
+            <p>Fill out the forms below to create your account and tell us about your training goals.</p>
+        </section>
+
+        <form>
+            <h2>Create Member Account</h2>
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Email Address">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </form>
+
+        <form>
+            <h2>Training Preferences</h2>
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" placeholder="State">
+
+            <label for="class">Class Interest</label>
+            <input list="classes" id="class" name="class">
+            <datalist id="classes">
+                <option value="Brazilian Jiu-Jitsu">
+                <option value="Muay Thai">
+                <option value="BJJ + Muay Thai">
+            </datalist>
+
+            <label for="level">Experience Level</label>
+            <input list="levels" id="level" name="level">
+            <datalist id="levels">
+                <option value="Beginner">
+                <option value="Some Experience">
+                <option value="Experienced">
+            </datalist>
+        </form>
+    </main>
+
+    <footer>
+        <h3>Paradise Jiu Jitsu and Muay Thai</h3>
+        <p><strong>Address:</strong> 123 Main Street, Glassboro, NJ 08028</p>
+        <p><strong>Hours:</strong> Monday-Friday 5:00 PM-9:00 PM, Saturday 10:00 AM-2:00 PM</p>
+        <p><strong>Phone:</strong> (856) 555-0148</p>
+        <p><strong>Email:</strong> <a href="mailto:info@paradisejiujitsu.com">info@paradisejiujitsu.com</a></p>
+        <p>
+            <a class="button" href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a class="button" href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a class="button" href="https://www.youtube.com/" target="_blank">YouTube</a>
+        </p>
+        <p class="small-text">This is a fictional business created for a web development class project.</p>
+    </footer>
+</body>
+</html>
